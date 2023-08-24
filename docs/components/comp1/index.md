@@ -8,7 +8,7 @@
 
 <!-- <demo-preview path="../demos/comp1/index.vue" title="基本使用" description="xxxxx"></demo-preview> -->
 
-<CompA/>
+<Comp1/>
 
 ## 使用
 

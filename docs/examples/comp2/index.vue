@@ -1,6 +1,6 @@
 <template lang="pug">
 .comp2
-  p 我是COMP2
+  el-input(placeholder="我是COMP2")
 </template>
 <script>
 </script>
