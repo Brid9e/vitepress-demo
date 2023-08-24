@@ -10,15 +10,15 @@ hero:
   text: 组件库文本
   tagline: 组件库副标题描述
   image:
-    src: /logo.png
-    alt: YYG Admin UI
+    src: https://vitepress.dev/vitepress-logo-large.webp
+    alt: 组件库
   actions:
     - theme: brand
       text: 快速开始
       link: /guide/
     - theme: alt
       text: 组件
-      link: /components/
+      link: /components/comp1/index
 features:
   - icon: 🔨
     title: 功能/特点 1

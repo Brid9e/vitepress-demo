@@ -1,16 +1,6 @@
-/*
- * @Author: Joe
- * @Date: 2023-08-24 22:09:51
- * @LastEditors: Joe
- * @LastEditTime: 2023-08-24 23:27:39
- * @FilePath: /comphub/docs/.vitepress/config.ts
- * @Description: 
- * 
- * Copyright (c) 2023 by ${git_name_email}, All Rights Reserved. 
- */
 const nav = [
   { text: '指南', link: '/guide/' },
-  { text: '组件', link: '/components/comp1' },
+  { text: '组件', link: '/components/comp1/index' },
   {
     text: '下拉菜单',
     items: [
@@ -34,8 +24,9 @@ const sidebar = {
     {
       text: '通用组件',
       items: [
-        { text: '组件1', link: '/components/comp1' },
-        { text: '组件2', link: '/components/comp2' }
+        { text: '组件1', link: '/components/comp1/index' },
+        { text: '组件2', link: '/components/comp2/index' },
+        { text: '预览组件', link: '/components/preview/index' }
       ]
     }
   ]
@@ -47,9 +38,8 @@ export default {
   base: '/',
   lastUpdated: true,
   themeConfig: {
-    logo: '/logo.png',
-    // siteTitle: '组件库标题',
-    outline: 3,
+    logo: 'https://vitepress.dev/vitepress-logo-mini.svg',
+    // siteTitle: '物料库',
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
     ],
