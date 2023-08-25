@@ -6,19 +6,17 @@ const nav = [
     items: [
       { text: 'Item A', link: '/item-1' },
       { text: 'Item B', link: '/item-2' },
-      { text: 'Item C', link: '/item-3' }
-    ]
-  }
+      { text: 'Item C', link: '/item-3' },
+    ],
+  },
 ]
 
 const sidebar = {
   '/guide': [
     {
       text: '指南',
-      items: [
-        { text: '组件库介绍', link: '/guide/' }
-      ]
-    }
+      items: [{ text: '组件库介绍', link: '/guide/' }],
+    },
   ],
   '/components': [
     {
@@ -26,10 +24,10 @@ const sidebar = {
       items: [
         { text: '组件1', link: '/components/comp1/index' },
         { text: '组件2', link: '/components/comp2/index' },
-        { text: '预览组件', link: '/components/preview/index' }
-      ]
-    }
-  ]
+        { text: '预览组件', link: '/components/preview/index' },
+      ],
+    },
+  ],
 }
 export default {
   title: '组件库',
@@ -37,14 +35,14 @@ export default {
   lang: 'cn-ZH',
   base: '/',
   lastUpdated: true,
+
   themeConfig: {
     logo: 'https://vitepress.dev/vitepress-logo-mini.svg',
-    // siteTitle: '物料库',
+    // siteTitle: '组件库',
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/vuejs/vitepress' },
     ],
     nav,
-    sidebar
-  }
+    sidebar,
+  },
 }
-

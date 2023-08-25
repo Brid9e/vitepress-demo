@@ -12,7 +12,7 @@ function getFolderContents(folderPath, result) {
     if (isDirectory) {
       // 如果子文件夹下存在index.vue，则以子文件夹的名字为key
       if (fs.existsSync(path.join(itemPath, 'index.vue'))) {
-        result[ item ] = fs.readFileSync(path.join(itemPath, 'index.vue'), 'utf8');
+        result[ item.toLowerCase() ] = fs.readFileSync(path.join(itemPath, 'index.vue'), 'utf8');
       } else {
         // 递归处理子文件夹
         getFolderContents(itemPath, result);
@@ -20,7 +20,7 @@ function getFolderContents(folderPath, result) {
     } else {
       // 使用文件名（省略后缀）为key，文件内容为value
       const fileName = path.parse(item).name;
-      result[ fileName ] = fs.readFileSync(itemPath, 'utf8');
+      result[ fileName.toLowerCase() ] = fs.readFileSync(itemPath, 'utf8');
     }
   });
 }

@@ -1,27 +1,42 @@
 {
-  "hash": "fcd41d56",
-  "browserHash": "e4992653",
+  "hash": "bd0b5506",
+  "browserHash": "82b1e4a7",
   "optimized": {
     "vue": {
       "src": "../../../node_modules/vue/dist/vue.runtime.esm-bundler.js",
       "file": "vue.js",
-      "fileHash": "0bec12ae",
+      "fileHash": "e31cf1fc",
       "needsInterop": false
     },
     "vitepress > @vue/devtools-api": {
       "src": "../../../node_modules/@vue/devtools-api/lib/esm/index.js",
       "file": "vitepress___@vue_devtools-api.js",
-      "fileHash": "d7d60915",
+      "fileHash": "aba97b89",
       "needsInterop": false
     },
     "element-plus": {
       "src": "../../../node_modules/element-plus/es/index.mjs",
       "file": "element-plus.js",
-      "fileHash": "3d591fd5",
+      "fileHash": "fcfcb1ba",
+      "needsInterop": false
+    },
+    "vue3-highlightjs": {
+      "src": "../../../node_modules/vue3-highlightjs/dist/vue3-highlight-es.js",
+      "file": "vue3-highlightjs.js",
+      "fileHash": "213ec703",
+      "needsInterop": false
+    },
+    "@element-plus/icons-vue": {
+      "src": "../../../node_modules/@element-plus/icons-vue/dist/index.js",
+      "file": "@element-plus_icons-vue.js",
+      "fileHash": "4910229d",
       "needsInterop": false
     }
   },
   "chunks": {
+    "chunk-H3PAWVCM": {
+      "file": "chunk-H3PAWVCM.js"
+    },
     "chunk-SHNSPNRG": {
       "file": "chunk-SHNSPNRG.js"
     },
